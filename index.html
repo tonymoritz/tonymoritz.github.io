@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+       function add() {
+        var a =document.getElementById("a1").value;
+        var b =document.getElementById("a2").value;
+        alert(parseInt(a) + parseInt(b));
+      }
+      function subtract() {
+        var c =document.getElementById("a1").value;
+        var d =document.getElementById("a2").value;
+        alert(parseInt(c) - parseInt(d));
+      }
+      function multiply() {
+        var e =document.getElementById("a1").value;
+        var f =document.getElementById("a2").value;
+        alert(parseInt(e) * parseInt(f));
+      }
+      function divide() {
+        var g =document.getElementById("a1").value;
+        var h =document.getElementById("a2").value;
+        alert(parseInt(g) / parseInt(h));
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Calculator:</h1>
+    <input type="text" name="" id="a1">
+    <input type="text" name="" id="a2">
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+  </body>
+</html>
